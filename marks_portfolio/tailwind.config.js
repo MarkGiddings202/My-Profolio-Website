@@ -8,6 +8,9 @@ module.exports = {
     fontFamily: {
       signature: ["Great Vibes"],
     },
+    container: {
+      padding: '2rem',
+    },
   },
   plugins: [],
 }
