@@ -2,9 +2,7 @@ import React from "react";
 import Assembly from "../assets/Assembly.png"
 import GiveAWay from "../assets/Giveaway.png"
 import Recikey from "../assets/ReciKey.png"; 
-// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-// import installNode from "../assets/portfolio/installNode.jpg";
-// import reactWeather from "../assets/portfolio/reactWeather.jpg";
+
 
 const Portfolio = () => {
 
@@ -12,17 +10,20 @@ const Portfolio = () => {
       {
         id: 1,
         src: Recikey,
-        href: "https://markgiddings202.github.io/Unit-6-Project-ReciKey/"
+        href: "https://markgiddings202.github.io/Unit-6-Project-ReciKey/",
+        github: "https://github.com/MarkGiddings202/Unit-6-Project-ReciKey",
       },
     {
       id: 2,
       src: Assembly,
       href: "https://main--bucolic-lollipop-d5b6c1.netlify.app/",
+      github: "https://github.com/Assembly-Capstone-Project",
     },
     {
       id: 3,
       src: GiveAWay,
-      href: "https://give-a-way.netlify.app/"
+      href: "https://give-a-way.netlify.app/",
+      github: "https://github.com/Give-A-Way",
     },
     // {
     //   id: 4,
@@ -52,7 +53,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, href }) => (
+          {portfolios.map(({ id, src, href , github}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -60,12 +61,12 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href={href} className= "w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={href} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </a>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={github} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
