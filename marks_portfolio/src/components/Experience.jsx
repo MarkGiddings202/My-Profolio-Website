@@ -4,10 +4,12 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/Table Plus Icon.png"
-import graphql from "../assets/download.png";
+import tablePlus from "../assets/Table Plus Icon.png"
+import Sql from "../assets/Sql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import nodeJs from "../assets/nodejs.png"
+import postMan from "../assets/Postman.png"
 
 const Experience = () => {
   const techs = [
@@ -43,14 +45,14 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
+      src: tablePlus,
       title: "Next JS",
       style: "shadow-white",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
+      src: Sql,
+      title: "SQL",
       style: "shadow-pink-400",
     },
     {
@@ -61,10 +63,28 @@ const Experience = () => {
     },
     {
         id: 9,
-        src: github,
-        title: "GitHub",
+        src: nodeJs,
+        title: "Node js",
         style: "shadow-gray-400",
-      },
+    },
+    {
+        id: 10,
+        src: postMan,
+        title: "Postman",
+        style: "shadow-gray-400",
+    },
+    // {
+    //     id: 11,
+    //     src: nodeJs,
+    //     title: "Node Js",
+    //     style: "shadow-gray-400",
+    // },
+    // {
+    //     id: 12,
+    //     src: nodeJs,
+    //     title: "Node Js",
+    //     style: "shadow-gray-400",
+    // },
     
   ];
 
