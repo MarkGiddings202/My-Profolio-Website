@@ -9,7 +9,7 @@ import Sql from "../assets/Sql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import nodeJs from "../assets/nodejs.png"
-import postMan from "../assets/Postman.png"
+// import postMan from "../assets/Postman.png"
 
 const Experience = () => {
   const techs = [
@@ -67,12 +67,12 @@ const Experience = () => {
         title: "Node js",
         style: "shadow-gray-400",
     },
-    {
-        id: 10,
-        src: postMan,
-        title: "Postman",
-        style: "shadow-gray-400",
-    },
+    // {
+    //     id: 10,
+    //     src: postMan,
+    //     title: "Postman",
+    //     style: "shadow-gray-400",
+    // },
     // {
     //     id: 11,
     //     src: nodeJs,
