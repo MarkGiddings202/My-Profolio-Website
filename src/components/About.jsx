@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        I'm a software engineer with a diverse background. I started out as an electrician and eventually made the transition into tech. In my free time, I enjoy writing poetry and staying fit through boxing. I also have a strong commitment to community service and sit on the board of directors as a young trustee for a non-profit. Fun fact about me - my family hails from Georgetown, Guyana, but I grew up in Brooklyn."
+        I'm a Software Engineer with a diverse background. I started out as an Electrician and eventually made the transition into tech. In my free time, I enjoy writing poetry and staying fit through boxing. I also have a strong commitment to community service and sit on the board of directors as a Trustee for a non-profit. Fun fact about me - my family hails from Georgetown, Guyana, but I grew up in Brooklyn."
         </p>
 
         <br />
