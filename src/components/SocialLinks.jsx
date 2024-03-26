@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Mark Giddings_Resume  (6).pdf",
+      href: "/Mark Giddings Resume 2024.pdf",
       style: "rounded-br-md",
       download: true,
     },

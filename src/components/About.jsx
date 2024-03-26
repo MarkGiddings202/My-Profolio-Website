@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        I'm a Software Engineer with a diverse background. I started out as an Electrician and eventually made the transition into tech. In my free time, I enjoy writing poetry and staying fit through boxing. I also have a strong commitment to community service and sit on the board of directors as a Trustee for a non-profit. Fun fact about me - my family hails from Georgetown, Guyana, but I grew up in Brooklyn."
+        I'm a Software Engineer, teacher, and poet. My family is from Georgetown, Guyana, and I was raised in Brooklyn, New York. Some of my hobbies include going for long walks, reading, and exploring NYC when I can. I really aspire to leverage my skills and expertise to make a meaningful impact within a dynamic tech company. I'm particularly drawn to organizations that prioritize collaboration, diversity, and social responsibility. My commitment to continuous learning and adaptability fuels my drive to excel in this ever-evolving field. Outside of work, I'm deeply rooted in values of integrity, empathy, and community, values instilled in me from my upbringing and The Marcy Lab School.
         </p>
 
         <br />
