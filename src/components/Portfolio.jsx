@@ -2,6 +2,7 @@ import React from "react";
 import Assembly from "../assets/Assembly.png"
 import GiveAWay from "../assets/Giveaway.png"
 import Recikey from "../assets/ReciKey.png"; 
+import Sumz from "../assets/Sumz.png"
 
 
 const Portfolio = () => {
@@ -25,18 +26,12 @@ const Portfolio = () => {
       href: "https://give-a-way.netlify.app/",
       github: "https://github.com/Give-A-Way",
     },
-    // {
-    //   id: 4,
-    //   src: reactSmooth,
-    // },
-    // {
-    //   id: 5,
-    //   src: installNode,
-    // },
-    // {
-    //   id: 6,
-    //   src: reactWeather,
-    // },
+    {
+      id: 4,
+      src: Sumz,
+      href: "https://poetic-muffin-f9c5f1.netlify.app/",
+      github: "https://github.com/MarkGiddings202/AI-article-summarizer-",
+    }
   ];
 
   return (
